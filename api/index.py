@@ -22,7 +22,7 @@ def GetTitle() -> str:
 def GetAcceptedAgreements():
     received_data = request.get_json()
 
-    return jsonify({"MOTD":"<color=red>WELCOME TO FROSTBITE RUNNING</color>\n<color=green>OWNER IS GHOSTGM13</color>"})
+    return jsonify "Flask app is running!"
         "ResultCode": 1,
         "StatusCode": 200,
         "Message": '',
